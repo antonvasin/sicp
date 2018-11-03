@@ -25,3 +25,11 @@
         ((and (> a b) (> c b)) (sum-sqrt a c))))
 
 (sum-sqrt-largest 2 4 5)
+
+; Ex 1.4
+; Operator is defined by arguments of the procedure
+(define (a-plus-abs-b a b)
+  ((if (> b 0) + -) a b))
+
+(a-plus-abs-b 3 5)
+(a-plus-abs-b 3 -5)
