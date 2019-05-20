@@ -1,3 +1,4 @@
+#lang sicp
 ; 1.1.7 Square Roots by Newton’s Method
 
 (define (sqrt-iter guess x)

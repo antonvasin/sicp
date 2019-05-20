@@ -1,3 +1,4 @@
+#lang sicp
 ; Because the tolerance of good-enough? is 0.001 it would give wrong answers for very small numbers;
 (sqrt 0.001)
 

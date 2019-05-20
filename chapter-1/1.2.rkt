@@ -1,3 +1,4 @@
+#lang sicp
 ; Example 1.2
 
 (/ (+ 5
