@@ -6,6 +6,12 @@
 ; Will never return
 ; (sqrt 9999999999998)
 
+(define (improve guess x)
+  (average guess (/ x guess)))
+
+(define (average x y)
+  (/ (+ x y) 2))
+
 (define (good-enough-better? guess prev-guess)
   (< (abs (- guess prev-guess)) 0.001))
 
