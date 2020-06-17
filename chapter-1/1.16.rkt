@@ -39,9 +39,6 @@
         (else
           (* b (fast-expt-ex b (- n 1))))))
 
-(define (square a)
-	(* a a))
-
 (fast-expt-ex 2 8)
 
 #| iterative successive squaring |#
