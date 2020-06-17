@@ -1,5 +1,7 @@
 #lang sicp
 
+(#%require "../common.rkt")
+
 (define (mult-lin a b)
   (if (= b 0)
     0
@@ -9,10 +11,6 @@
 
 (define (double a) (+ a a))
 (define (halve a) (/ a 2))
-
-(define (even? n)
-  (= (remainder n 2) 0))
-
 
 (define (mult-log a b)
   (cond ((= b 0) 0)

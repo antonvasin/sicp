@@ -1,4 +1,7 @@
 #lang sicp
+
+(#%require "../common.rkt")
+
 #| recursive |#
 (define (expt-rec b n)
   (if (= n 0)
@@ -38,9 +41,6 @@
 
 (define (square a)
 	(* a a))
-
-(define (even? n)
-  (= (remainder n 2) 0))
 
 (fast-expt-ex 2 8)
 

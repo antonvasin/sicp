@@ -1,9 +1,9 @@
 #lang sicp
 
+(#%require "../common.rkt")
+
 (define (double a) (+ a a))
 (define (halve a) (/ a 2))
-(define (even? n)
-  (= (remainder n 2) 0))
 
 (define (iter-mult a b)
   (iter-mult-impl a b 0))
