@@ -43,13 +43,6 @@
          (fast-prime? n (- times 1)))
         (else false)))
 
-; 1.21
-(display "Exercice 1.21\n\n")
-(smallest-divisor 199)
-(smallest-divisor 1999)
-(smallest-divisor 19999)
-(newline)
-
 (define (timed-prime-test n)
   (newline)
   (display n)
